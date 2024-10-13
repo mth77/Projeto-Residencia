@@ -1,0 +1,88 @@
+body, html {
+    background-color: #F0F0F0;
+    margin: 0;
+    height: 100%;
+    overflow: hidden;
+}
+
+.head {
+    background-color: #164095;
+    height: 15vh;
+    justify-content: center;
+    align-self: center;
+}
+
+.col-opt {
+    color: #F0F0F0;
+    background-color: #164095;
+    width: 35vh;
+    height: 85vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.content {
+    overflow-y: auto;
+    height: 85vh;
+}
+
+.home-parreiras {
+    height: 15vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.title-parreiras {
+    color: #F0F0F0;
+    text-align: center;
+}
+
+#home-title-chamadas {
+    margin: 2px;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#home-title-parreiras {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 7px;
+    border-top: 2px solid #F0F0F0;
+}
+
+.logo-parreiras {
+    height: 200px;
+    margin-top: 20px;
+}
+
+#box-opt {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+li {
+    list-style-type: none;
+    color: #F0F0F0;
+    margin: 20px;
+}
+
+.lista-opt {
+    text-decoration: none;
+    color: #F0F0F0;
+    font-size: 27px;
+    display: flex;
+    align-items: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.icons-opt {
+    height: 30px;
+    padding-bottom: 5px;
+    margin: 5px;
+}
